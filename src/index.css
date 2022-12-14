@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  background-image: url(./assets/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -1000;
+}
+
+
+.background__overlay {
+  position: absolute;
+  background-color: #12121296;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -1000;
+}
